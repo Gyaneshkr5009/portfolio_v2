@@ -722,6 +722,32 @@ main {
   border-radius: inherit;
 }
 
+/* download resume section*/
+.download-resume {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.download-resume h3 {
+  color: var(--white-2);
+  margin-bottom: 15px;
+}
+
+.download-btn {
+  background-color: var(--orange-yellow-crayola);
+  color: var(--smoky-black);
+  padding: 10px 20px;
+  font-size: var(--fs-6);
+  border-radius: 8px;
+  text-transform: uppercase;
+  font-weight: var(--fw-500);
+  transition: background-color 0.3s ease;
+}
+
+.download-btn:hover {
+  background-color: var(--vegas-gold);
+}
+
 /*-----------------------------------*\
   #PORTFOLIO
 \*-----------------------------------*/
