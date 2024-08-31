@@ -1046,19 +1046,18 @@ textarea.form-input::-webkit-resizer {
 
 @media (min-width: 450px) {
   /**
-   * client
+   * links
    */
 
-  .clients-item {
+  .links-item {
     min-width: calc(33.33% - 10px);
   }
 
   /**
-   * #PORTFOLIO, BLOG 
+   * #PORTFOLIO
    */
 
-  .project-img,
-  .blog-banner-box {
+  .project-img{
     height: auto;
   }
 }
@@ -1231,13 +1230,7 @@ textarea.form-input::-webkit-resizer {
     text-align: left;
   }
 
-  /* testimonials modal */
-
-  .modal-container {
-    padding: 20px;
-  }
-
-  /* clients */
+  /* links */
 
   .links-list {
     gap: 50px;
@@ -1351,17 +1344,6 @@ textarea.form-input::-webkit-resizer {
    * ABOUT
    */
 
-  /* testimonials modal */
-
-  .testimonials-modal {
-    gap: 35px;
-    max-width: 680px;
-  }
-
-  .modal-avatar-box img {
-    width: 80px;
-  }
-
   /**
    * PORTFOLIO
    */
@@ -1399,8 +1381,7 @@ textarea.form-input::-webkit-resizer {
 
   /* portfolio and blog grid */
 
-  .project-list,
-  .blog-posts-list {
+  .project-list {
     grid-template-columns: 1fr 1fr;
   }
 
@@ -1497,9 +1478,9 @@ textarea.form-input::-webkit-resizer {
     gap: 20px 25px;
   }
 
-  /* clients */
+  /* links */
 
-  .clients-item {
+  .links-item {
     min-width: calc(25% - 38px);
   }
 
