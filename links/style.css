@@ -89,9 +89,7 @@
   --transition-2: 0.5s ease-in-out;
 }
 
-/*-----------------------------------*\
-  #RESET
-\*-----------------------------------*/
+/*-----------------(reset)------------------*/
 
 *,
 *::before,
@@ -151,9 +149,7 @@ body {
   background: var(--smoky-black);
 }
 
-/*-----------------------------------*\
-  #REUSED STYLE
-\*-----------------------------------*/
+/*---------------REUSED STYLE--------------------*/
 
 .sidebar,
 article {
@@ -298,9 +294,7 @@ article.active {
   z-index: -1;
 }
 
-/*-----------------------------------*\
-  #MAIN
-\*-----------------------------------*/
+/*-----------------MAIN------------------*/
 
 main {
   margin: 15px 12px;
@@ -308,9 +302,7 @@ main {
   min-width: 259px;
 }
 
-/*-----------------------------------*\
-  #SIDEBAR
-\*-----------------------------------*/
+/*----------------SIDEBAR-------------------*/
 
 .sidebar {
   margin-bottom: 15px;
@@ -455,9 +447,7 @@ main {
   color: var(--light-gray);
 }
 
-/*-----------------------------------*\
-  #NAVBAR
-\*-----------------------------------*/
+/*------------------NAVBAR-----------------*/
 
 .navbar {
   position: fixed;
@@ -748,9 +738,7 @@ main {
   background-color: var(--vegas-gold);
 }
 
-/*-----------------------------------*\
-  #PORTFOLIO
-\*-----------------------------------*/
+/*----------------PORTFOLIO-------------------*/
 
 .filter-list {
   display: none;
@@ -925,9 +913,7 @@ main {
   font-weight: var(--fw-300);
 }
 
-/*-----------------------------------*\
-  #CONTACT
-\*-----------------------------------*/
+/*----------------CONTACT-------------------*/
 
 .mapbox {
   position: relative;
@@ -1052,9 +1038,7 @@ textarea.form-input::-webkit-resizer {
   background: var(--bg-gradient-jet);
 }
 
-/*-----------------------------------*\
-  #RESPONSIVE
-\*-----------------------------------*/
+/*----------------RESPONSIVE-------------------*/
 
 /**
  * responsive larger than 450px screen
@@ -1247,89 +1231,22 @@ textarea.form-input::-webkit-resizer {
     text-align: left;
   }
 
-  /* testimonials */
-
-  .testimonials-title {
-    margin-bottom: 25px;
-  }
-
-  .testimonials-list {
-    gap: 30px;
-    margin: 0 -30px;
-    padding: 30px;
-    padding-bottom: 35px;
-  }
-
-  .content-card {
-    padding: 30px;
-    padding-top: 25px;
-  }
-
-  .testimonials-avatar-box {
-    transform: translate(30px, -30px);
-    border-radius: 20px;
-  }
-
-  .testimonials-avatar-box img {
-    width: 80px;
-  }
-
-  .testimonials-item-title {
-    margin-bottom: 10px;
-    margin-left: 95px;
-  }
-
-  .testimonials-text {
-    line-clamp: 2;
-    -webkit-line-clamp: 2;
-  }
-
   /* testimonials modal */
 
   .modal-container {
     padding: 20px;
   }
 
-  .testimonials-modal {
-    display: flex;
-    justify-content: flex-start;
-    align-items: stretch;
-    gap: 25px;
-    padding: 30px;
-    border-radius: 20px;
-  }
-
-  .modal-img-wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .modal-avatar-box {
-    border-radius: 18px;
-    margin-bottom: 0;
-  }
-
-  .modal-avatar-box img {
-    width: 65px;
-  }
-
-  .modal-img-wrapper > img {
-    display: block;
-    flex-grow: 1;
-    width: 35px;
-  }
-
   /* clients */
 
-  .clients-list {
+  .links-list {
     gap: 50px;
     margin: 0 -30px;
     padding: 45px;
     scroll-padding-inline: 45px;
   }
 
-  .clients-item {
+  .links-item {
     min-width: calc(33.33% - 35px);
   }
 
