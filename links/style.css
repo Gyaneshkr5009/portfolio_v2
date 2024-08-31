@@ -1379,7 +1379,7 @@ textarea.form-input::-webkit-resizer {
     color: var(--orange-yellow-crayola);
   }
 
-  /* portfolio and blog grid */
+  /* portfolio*/
 
   .project-list {
     grid-template-columns: 1fr 1fr;
