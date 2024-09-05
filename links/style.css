@@ -150,7 +150,6 @@ body {
   background-color: var(--smoky-black);
   background-size: 100% auto;
   background-position: center;
-
 }
 
 /*---------------REUSED STYLE--------------------*/
@@ -1147,6 +1146,7 @@ textarea.form-input::-webkit-resizer {
   .links-item {
     min-width: calc(33.33% - 10px);
   }
+
   /*body*/
   body{
     background-size: contain;
@@ -1159,6 +1159,7 @@ textarea.form-input::-webkit-resizer {
   .project-img{
     height: auto;
   }
+  
 }
 
 /**
@@ -1211,6 +1212,7 @@ textarea.form-input::-webkit-resizer {
     border-radius: 12px;
     font-size: 18px;
   }
+
   /*body*/
   body{
     background-size: contain;
@@ -1425,6 +1427,7 @@ textarea.form-input::-webkit-resizer {
   .has-scrollbar::-webkit-scrollbar-button {
     width: 100px;
   }
+  
 
   /**
    * SIDEBAR
@@ -1530,6 +1533,7 @@ textarea.form-input::-webkit-resizer {
     width: 950px;
     box-shadow: var(--shadow-5);
   }
+  
 
   /**
    * MAIN 
@@ -1641,6 +1645,7 @@ textarea.form-input::-webkit-resizer {
   article {
     min-height: 100%;
   }
+
 
   /**
    * MAIN
