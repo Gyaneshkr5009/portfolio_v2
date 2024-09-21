@@ -39,18 +39,18 @@
 
   /* solid */
 
-  --jet: hsl(0, 0%, 22%);
-  --onyx: hsl(240, 1%, 17%);
-  --eerie-black-1: hsl(240, 2%, 13%);
-  --eerie-black-2: #4b5b6a;
-  --smoky-black: hsl(0, 0%, 7%);
+  --jet: hsl(0, 0%, 24%);  /* Slightly lighter for better contrast */
+  --onyx: #2B3A39;  /* Darker onyx for consistency */
+  --eerie-black-1: hsl(240, 2%, 14%);
+  --eerie-black-2: #345B54;  /* Darken for contrast with text */
+  --smoky-black: hsl(0, 0%, 10%);  /* Darken slightly */
   --white-1: hsl(0, 0%, 100%);
   --white-2: hsl(0, 0%, 98%);
-  --orange-yellow-crayola: hsl(45, 100%, 72%);
+  --orange-yellow-crayola: hsl(45, 100%, 70%);  /* Soften for balance */
   --vegas-gold: hsl(45, 54%, 58%);
-  --light-gray: hsl(0, 0%, 84%);
-  --light-gray-70: hsla(0, 0%, 84%, 0.7);
-  --bittersweet-shimmer: hsl(0, 43%, 51%);
+  --light-gray: hsl(0, 0%, 85%);  /* Lighter gray for better readability */
+  --light-gray-70: hsla(0, 0%, 85%, 0.7);
+  --bittersweet-shimmer: hsl(0, 43%, 50%);  /* Slightly muted */
 
   /**
    * typography
