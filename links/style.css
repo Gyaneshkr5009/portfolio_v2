@@ -449,7 +449,7 @@ main {
   bottom: 0;
   left: 0;
   width: 100%;
-  background: #002244 ;
+  background: #323F3F ;
   overflow: hidden;
   backdrop-filter: blur(10px);
   border: 1px solid var(--jet);
