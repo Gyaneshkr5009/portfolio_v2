@@ -7,34 +7,42 @@
   /* gradient */
 
   --bg-gradient-onyx: linear-gradient(
-    to bottom right, 
-    hsl(240, 1%, 25%) 3%, 
-    hsl(0, 0%, 19%) 97%
+    to bottom right,
+    hsl(220, 13%, 23%) 3%, /* Slightly darker neutral dark blue */
+    hsl(220, 13%, 18%) 97%  /* Transition to darker blue */
   );
+
   --bg-gradient-jet: linear-gradient(
-    to bottom right, 
-    hsla(240, 1%, 18%, 0.251) 0%, 
-    hsla(240, 2%, 11%, 0) 100%
-  ), hsl(240, 2%, 13%);
+    to bottom right,
+    hsla(180, 12%, 22%, 0.3) 0%, /* Muted teal-grey with slight transparency */
+    hsla(180, 18%, 20%, 0) 100%  /* Darker muted teal-grey fading to transparent */
+  ), hsl(180, 12%, 22%);  /* Base color: darker muted teal-grey */
+
+  /* Updated accent gradients */
   --bg-gradient-yellow-1: linear-gradient(
-    to bottom right, 
-    hsl(45, 100%, 71%) 0%, 
-    hsla(36, 100%, 69%, 0) 50%
+    to bottom right,
+    hsl(42, 100%, 60%) 0%,  /* Mellow mustard tone */
+    hsla(42, 100%, 60%, 0) 50%  /* Softer transition */
   );
+
   --bg-gradient-yellow-2: linear-gradient(
-    135deg, 
-    hsla(45, 100%, 71%, 0.251) 0%, 
-    hsla(35, 100%, 68%, 0) 59.86%
-  ), hsl(240, 2%, 13%);
+    135deg,
+    hsla(36, 100%, 65%, 0.25) 0%,  /* Amber-yellow with slight transparency */
+    hsla(36, 100%, 65%, 0) 60%
+  ), hsl(220, 13%, 23%); /* Darker blue tone for contrast */
+
+  /* Updated border gradients */
   --border-gradient-onyx: linear-gradient(
-    to bottom right, 
-    hsl(0, 0%, 25%) 0%, 
-    hsla(0, 0%, 25%, 0) 50%
+    to bottom right,
+    hsl(220, 13%, 23%) 0%,  /* Consistent with background */
+    hsla(220, 13%, 23%, 0) 50%
   );
+
+  /* Updated text gradient */
   --text-gradient-yellow: linear-gradient(
-    to right, 
-    hsl(45, 100%, 72%), 
-    hsl(35, 100%, 68%)
+    to right,
+    hsl(40, 100%, 55%),  /* Gold-yellow for smooth readability */
+    hsl(35, 100%, 50%)   /* Slightly richer end color */
   );
 
   /* solid */
