@@ -41,8 +41,8 @@
   /* Updated text gradient */
   --text-gradient-yellow: linear-gradient(
     to right,
-    hsl(40, 100%, 55%),  /* Gold-yellow for smooth readability */
-    hsl(35, 100%, 50%)   /* Slightly richer end color */
+    hsl(132.9,74%,59.2%),  /* Gold-yellow for smooth readability */
+    hsl(169, 68%, 47%)  /* Slightly richer end color */
   );
 
   /* solid */
@@ -54,7 +54,7 @@
   --smoky-black: hsl(0, 0%, 10%);  /* Darken slightly */
   --white-1: hsl(0, 0%, 100%);
   --white-2: hsl(0, 0%, 98%);
-  --orange-yellow-crayola: hsl(45, 100%, 70%);  /* Soften for balance */
+  --orange-yellow-crayola: hsl(132.9,74%,59.2%);  /* Soften for balance */
   --vegas-gold: hsl(45, 54%, 58%);
   --light-gray: hsl(0, 0%, 85%);  /* Lighter gray for better readability */
   --light-gray-70: hsla(0, 0%, 85%, 0.7);
@@ -939,7 +939,7 @@ main {
 
 .back-video {
   position: absolute; /* Position absolute for proper coverage */
-  top: 40%;          /* Center vertically */
+  top: 30%;          /* Center vertically */
   left: 40%;         /* Center horizontally */
   min-width: 100%;   /* Ensure video covers the width */
   min-height: 100%;  /* Ensure video covers the height */
