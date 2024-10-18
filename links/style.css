@@ -922,6 +922,8 @@ main {
 
 /*---------------Contact-----------*/
 
+/*---------------Contact-----------*/
+
 .mapbox {
   position: relative;
   height: 250px;
@@ -929,37 +931,42 @@ main {
   border-radius: 16px;
   margin-bottom: 30px;
   border: 1px solid var(--jet);
-  overflow: hidden;
-}
-
-.mapbox figure {
-  height: 100%;
-  margin: 0; /* Remove default margin */
+  overflow: hidden; /* Ensures the video doesn't overflow */
 }
 
 .back-video {
-  position: absolute; /* Position absolute for proper coverage */
-  top: 30%;          /* Center vertically */
-  left: 40%;         /* Center horizontally */
-  min-width: 100%;   /* Ensure video covers the width */
-  min-height: 100%;  /* Ensure video covers the height */
-  width: auto;       /* Allow automatic width adjustment */
-  height: auto;      /* Allow automatic height adjustment */
-  transform: translate(-50%, -50%); /* Center the video */
-  object-fit: cover; /* Ensures the video fills the container without distortion */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden; /* Ensures the video stays within the container */
+}
+
+.back-video video {
+  position: absolute;
+  top: 0;
+  left: -10;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the video completely fills the box, keeping the aspect ratio */
 }
 
 
-.bg{
+.bg {
   background-image: url(./backgroung/bg.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
-.contact-form { margin-bottom: 10px; }
+.contact-form {
+  margin-bottom: 10px;
+}
 
-.form-title { margin-bottom: 20px; }
+.form-title {
+  margin-bottom: 20px;
+}
 
 .input-wrapper {
   display: grid;
@@ -978,9 +985,13 @@ main {
   outline: none;
 }
 
-.form-input::placeholder { font-weight: var(--fw-500); }
+.form-input::placeholder {
+  font-weight: var(--fw-500);
+}
 
-.form-input:focus { border-color: var(--orange-yellow-crayola); }
+.form-input:focus {
+  border-color: var(--orange-yellow-crayola);
+}
 
 textarea.form-input {
   min-height: 100px;
@@ -990,9 +1001,13 @@ textarea.form-input {
   margin-bottom: 25px;
 }
 
-textarea.form-input::-webkit-resizer { display: none; }
+textarea.form-input::-webkit-resizer {
+  display: none;
+}
 
-.form-input:focus:invalid { border-color: yellow; }
+.form-input:focus:invalid {
+  border-color: yellow;
+}
 
 .form-btn {
   position: relative;
@@ -1022,20 +1037,32 @@ textarea.form-input::-webkit-resizer { display: none; }
   transition: var(--transition-1);
 }
 
-.form-btn ion-icon { font-size: 16px; }
+.form-btn ion-icon {
+  font-size: 16px;
+}
 
-.form-btn:hover { background: var(--bg-gradient-yellow-1); }
+.form-btn:hover {
+  background: var(--bg-gradient-yellow-1);
+}
 
-.form-btn:hover::before { background: var(--bg-gradient-yellow-2); }
+.form-btn:hover::before {
+  background: var(--bg-gradient-yellow-2);
+}
 
 .form-btn:disabled {
   opacity: 0.7;
   cursor: not-allowed;
 }
 
-.form-btn:disabled:hover { background: var(--border-gradient-onyx); }
+.form-btn:disabled:hover {
+  background: var(--border-gradient-onyx);
+}
 
-.form-btn:disabled:hover::before { background: var(--bg-gradient-jet); }
+.form-btn:disabled:hover::before {
+  background: var(--bg-gradient-jet);
+}
+
+
 
 
 
